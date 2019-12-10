@@ -61,8 +61,8 @@ https://github.com/openai/baselines/tree/master/baselines/gail
     pip install mpi4py
   
     pip install tqdm
-* Git clone current repository
-      
+* Put my code file folder into /baselines/.
+* replace following file folders:      
 * run
 
     python -m baselines.ggail.GGAIL
