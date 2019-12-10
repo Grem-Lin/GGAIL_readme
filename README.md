@@ -62,7 +62,7 @@ https://github.com/openai/baselines/tree/master/baselines/gail
   
     pip install tqdm
 * Put my code file folder into /baselines/.
-* replace following file folders:      
+* replace following file folders: ./common into corresponding place     
 * run
 
     python -m baselines.ggail.GGAIL
