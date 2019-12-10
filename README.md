@@ -50,15 +50,19 @@ https://github.com/openai/mujoco-py#obtaining-the-binaries-and-license-key
 
 * Test using file: mujoco_test.py
 
-## Install dependencies:
+## Set up coding environment
+
+* Download openAI baseline code from 
+https://github.com/openai/baselines/tree/master/baselines/gail
+* Install dependencies:
 
     sudo apt install libopenmpi-dev
   
     pip install mpi4py
   
     pip install tqdm
-
+* Git clone current repository
       
-## run
+* run
 
-    python -m baselines.ggail.ggail
+    python -m baselines.ggail.GGAIL
